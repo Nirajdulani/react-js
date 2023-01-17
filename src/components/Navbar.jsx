@@ -3,7 +3,10 @@ import React from 'react'
 function Navbar() {
   return (
     <div>
-      <ul>
+      <h1 class="text-3xl font-bold underline">
+    Hello world!
+  </h1>
+      <ul className="flex">
         <li>01</li>
         <li>02</li>
         <li>03</li>
