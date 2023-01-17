@@ -1,13 +1,14 @@
 import React from 'react'
 
-function Navbar() {
+function Navbar(props) {
   return (
     <div>
-      <h1 class="text-3xl font-bold underline">
-    Hello world!
-  </h1>
-      <ul className="flex">
-        <li>01</li>
+     
+      <ul className="flex justify-around">
+        <li>
+    {props.brand}
+
+        </li>
         <li>02</li>
         <li>03</li>
         <li>04</li>
